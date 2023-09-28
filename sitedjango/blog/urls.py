@@ -5,5 +5,3 @@ from blog import views
 urlpatterns = [
     path('', views.PostView.as_view(), name='home')
 ]
-
-# path('', views.PostViews.as_view(), name='home')
